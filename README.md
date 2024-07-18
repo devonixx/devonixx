@@ -5,6 +5,8 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devonixx&layout=compact&langs_count=5&theme=dracula&hide_border=false" height="150" alt="Top Languages" />
 </div>
 
+[GitHub Stats](https://github-readme-stats.vercel.app/api?username=devonixx&show_icons=true&theme=dracula&hide_border=false)
+
 <br />
 
 <div align="center">
@@ -62,13 +64,4 @@
 </div>
 
 <br />
-
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/yourusername/main/pixelart.png" alt="Pixel Art" />
-</p>
-
-<p align="center">
-  "Code is poetry." 🌟
 </p>

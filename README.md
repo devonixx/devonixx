@@ -25,7 +25,8 @@ Here are some ideas to get you started:
 
 ###
 
-<img align="right" height="150" src="https://wallpaperaccess.com/full/4582912.jpg"  />
+<img align="right" height="150" src="[https://wallpaperaccess.com/full/4582912.jpg](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2pmamJqZmtuYnc5OXpuZmVwczU0aWVyenV4eDJidXd6Nzgxd3h5aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26h0oZIGGOFZdZj4Q/giphy.gif)"  />
+
 
 ###
 

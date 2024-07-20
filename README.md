@@ -1,26 +1,41 @@
-![Github Banner](https://github.com/Jaydeep-Yadav/Jaydeep-Yadav/blob/main/banner.png)
+![Github Banner](https://www.techtarget.com/rms/onlineimages/container_g1275954204_searchsitetablet_520X173.jpg)
 
 ## Who am I?
 
  ```python
-  class WhoAmI:
-    user = 'K___ Nick'
-	current_edu = "CSIT"
-    currently_learning = "DevOps"
-    fun_fact = "I hate 88"
-	hobbies = [
-				'Music',
-        'Chilling',
-			 	'Gaming',
-				'Horror Movies'
-			]
-	
-	def getCity():
-		return Athens()
-	
-	def Ambitions():
-		DevOps()
-		FinishMyProjects()
+class Person:
+    def __init__(self, name, field_of_study, current_focus, interesting_fact, hobbies):
+        self.name = name
+        self.field_of_study = field_of_study
+        self.current_focus = current_focus
+        self.interesting_fact = interesting_fact
+        self.hobbies = hobbies
+
+    def get_location(self):
+        return "Unknown City"
+
+    def aspirations(self):
+        return ["Explore New Technologies", "Complete Personal Projects"]
+
+    def __str__(self):
+        return f"{self.name}, a {self.field_of_study} enthusiast, currently focusing on {self.current_focus}. " \
+               f"Interesting fact: {self.interesting_fact}. Hobbies include: {', '.join(self.hobbies)}."
+
+
+# Create an instance of Person with abstracted details
+user = Person(
+    name="K___ Nick",
+    field_of_study="Computer Science and Information Technology",
+    current_focus="DevOps",
+    interesting_fact="I have strong feelings about certain numbers.",
+    hobbies=['Music', 'Chilling', 'Gaming', 'Horror Movies']
+)
+
+# Demonstrate usage
+print(user)
+print("Current Location:", user.get_location())
+print("Aspirations:", user.aspirations())
+
 	
  ```
 
@@ -47,6 +62,11 @@
    <a href="#"><img alt="Tailwindcss" src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?logo=tailwindcss&logoColor=white"></a>
    <a href="#"><img alt="Django" src="https://img.shields.io/badge/Django-%23092E20.svg?logo=django&logoColor=white"></a>
    <a href="#"><img alt="Spring Boot" src="https://img.shields.io/badge/Spring%20Boot-%236DB33F.svg?logo=spring&logoColor=white"></a>
+   <a href="#"><img alt="React" src="https://img.shields.io/badge/React-%2361DAFB.svg?logo=react&logoColor=black"></a>
+   <a href="#"><img alt="Vue.js" src="https://img.shields.io/badge/Vue.js-%232C3E50.svg?logo=vue.js&logoColor=4FC08D"></a>
+   <a href="#"><img alt="Express.js" src="https://img.shields.io/badge/Express.js-%23000000.svg?logo=express&logoColor=white"></a>
+   <a href="#"><img alt="Flask" src="https://img.shields.io/badge/Flask-%000000.svg?logo=flask&logoColor=white"></a>
+   <a href="#"><img alt="Next.js" src="https://img.shields.io/badge/Next.js-%23000000.svg?logo=next.js&logoColor=white"></a>
 </p>
 
 ## Operating Systems
@@ -58,8 +78,6 @@
 <p>
     <a href="#"><img alt="Brave" src="https://img.shields.io/badge/Brave-FB542B?logo=brave&logoColor=white"></a>
     <a href="#"><img alt="Chrome" src="https://img.shields.io/badge/Google_chrome-4285F4?logo=Google-Chrome&logoColor=white"></a>
-    <a href="#"><img alt="Safari" src="https://img.shields.io/badge/Safari-FF1B2D?logo=Safari&logoColor=white"></a>
-    <a href="#"><img alt="Edge" src="https://img.shields.io/badge/Microsoft_Edge-0078D7?logo=Microsoft-edge&logoColor=white"></a>
 </p>
 
 ## Databases and Cloud Hosting
@@ -68,7 +86,11 @@
     <a href="https://www.github.com/pages"><img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-%23327FC7.svg?logo=github&logoColor=white"></a>
     <a href="https://www.heroku.com/"><img alt="Heroku" src="https://img.shields.io/badge/Heroku%20-%23430098.svg?logo=heroku&logoColor=white"></a>
     <a href="https://aws.amazon.com/"><img alt="AWS" src="https://img.shields.io/badge/AWS-%23FF9900.svg?logo=amazon-aws&logoColor=white"></a>
-</p> 
+    <a href="https://www.digitalocean.com/"><img alt="DigitalOcean" src="https://img.shields.io/badge/DigitalOcean-%230167FF.svg?logo=digitalocean&logoColor=white"></a>
+    <a href="https://www.rds.amazonaws.com/"><img alt="Amazon RDS" src="https://img.shields.io/badge/Amazon%20RDS-%23F2C75C.svg?logo=amazon-rds&logoColor=white"></a>
+    <a href="https://www.mongodb.com/cloud/atlas"><img alt="MongoDB Atlas" src="https://img.shields.io/badge/MongoDB%20Atlas-%236DB33F.svg?logo=mongodb&logoColor=white"></a>
+</p>
+
 
 ## DevOps Tools
 <p>

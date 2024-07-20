@@ -1,4 +1,4 @@
-![Github Banner](https://www.techtarget.com/rms/onlineimages/container_g1275954204_searchsitetablet_520X173.jpg)
+![Github Banner](https://trisita.co.in/wp-content/uploads/2023/01/krypteia-group-cloud-solutions-page-header-image.jpg)
 
 ## Who am I?
 

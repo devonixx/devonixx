@@ -2,43 +2,80 @@
 
 ## Who am I?
 
- ```python
-class Person:
-    def __init__(self, name, field_of_study, current_focus, interesting_fact, hobbies):
-        self.name = name
-        self.field_of_study = field_of_study
-        self.current_focus = current_focus
-        self.interesting_fact = interesting_fact
-        self.hobbies = hobbies
+## ⚙️ SKILLS & TOOLING
 
-    def get_location(self):
-        return "Unknown City"
+> *DevOps engineer with a love for declarative infra, reproducible systems, and GitOps workflows.*
 
-    def aspirations(self):
-        return ["Explore New Technologies", "Complete Personal Projects"]
+---
 
-    def __str__(self):
-        return f"{self.name}, a {self.field_of_study} enthusiast, currently focusing on {self.current_focus}. " \
-               f"Interesting fact: {self.interesting_fact}. Hobbies include: {', '.join(self.hobbies)}."
+### ☁️ Cloud & Infrastructure
 
+- 🧱 **Kubernetes** `HA`, `RBAC`, `Namespaces`, `Longhorn Volumes`  
+  > `proficiency: advanced`
+- 📦 **Helm** for templated deployments and lifecycle management  
+  > `proficiency: advanced`
+- 🌀 **FluxCD** with `Kustomize` overlays for GitOps automation  
+  > `proficiency: advanced`
+- 🛠️ **Terraform** managing Hetzner & Azure (`firewalls`, `vnet`, `subnets`)  
+  > `proficiency: advanced`
 
-# Create an instance of Person with abstracted details
-user = Person(
-    name="K___ Nick",
-    field_of_study="Computer Science and Information Technology",
-    current_focus="DevOps",
-    interesting_fact="I have strong feelings about certain numbers.",
-    hobbies=['Music', 'Chilling', 'Gaming', 'Horror Movies']
-)
+---
 
-# Demonstrate usage
-print(user)
-print("Current Location:", user.get_location())
-print("Aspirations:", user.aspirations())
+### 🐳 Containers & CI/CD
 
-	
- ```
+- 🐋 **Docker** `multi-stage builds`, private registry publishing  
+  > `proficiency: advanced`
+- 🧪 **GitLab CI/CD** pipelines for build-test-deploy flow  
+  > `proficiency: advanced`
+- 📜 Secret & config management via `SealedSecrets` / `Helm values`
 
+---
+
+### 🔐 Networking & Security
+
+- 🔁 **Ingress Controllers**: `Traefik` & `NGINX` w/ TLS via Cloudflare  
+- 🔒 **RBAC + NetworkPolicies** for namespace isolation  
+- 🌐 Internal IPv4/v6 routing, VPN subnet design (e.g. `10.0.2.0/24`, `2a01::/124`)  
+- 🧠 Bruteforce protection & logging via `rsyslog` + policy enforcement  
+  > `proficiency: intermediate to advanced`
+
+---
+
+### 📈 Monitoring & Observability
+
+- 📊 **Prometheus + Grafana** dashboards, service metrics  
+- 📥 Alert routing to **Mattermost** (no Slack 😉)  
+- 🔎 Cluster visibility with `kube-state-metrics`, `metrics-server`  
+  > `proficiency: advanced`
+
+---
+
+### 🧠 Scripting & Shell Life
+
+- 💻 **Bash scripting** (custom jobs, health checks, CI steps)  
+- 🎨 **Oh My Bash** wizardry: plugins, completions, aliases, theming  
+  > `proficiency: advanced`
+
+---
+
+### 🗃️ Stateful Apps & Storage
+
+- 🔄 **Longhorn**-backed `PostgreSQL`, `Redis`, `RabbitMQ` on Kubernetes  
+- 🧿 **Keycloak** via Helm with ingress + TLS  
+  > `proficiency: intermediate`
+
+---
+
+### 🐧 OS Management & Desktop
+
+- 🐧 **Pop!_OS / Ubuntu**: apt/full-upgrade workflows, Flatpak mgmt  
+- 🧹 Regular cleanup via `apt autoremove`, `flatpak uninstall --unused`  
+  > `proficiency: advanced`
+
+---
+
+> 💬 *“If it’s not versioned in Git, it doesn’t exist.”*  
+> 🧘‍♂️ `alias k=kubectl` | `alias tf=terraform` | `:wq`
  
 ## Github Stats
 
